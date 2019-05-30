@@ -7,6 +7,26 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 
+
+#include <nodes/NodeData>
+#include <nodes/FlowScene>
+#include <nodes/FlowView>
+#include <nodes/ConnectionStyle>
+#include <nodes/TypeConverter>
+
+#include <nodes/DataModelRegistry>
+
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QMenuBar>
+
+using QtNodes::ConnectionStyle;
+using QtNodes::FlowScene;
+using QtNodes::DataModelRegistry;
+using QtNodes::FlowView;
+
+
+
 //----------------------------------------------------------
 namespace Ui {
 class Dialog;
